@@ -1,0 +1,10 @@
+.main__add__product {
+    justify-content:space-between;
+    position:relative; 
+    left:250px; 
+    background:#ACDDDE;
+    height:700px;
+    width:700px; 
+    align-content: center
+    
+}

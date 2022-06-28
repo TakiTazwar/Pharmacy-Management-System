@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  mongodb:
+    container_name: database_pharma_container
+    image: mongo:latest
+    restart: always
+    ports: 
+      -  '27017:27017'
+    volumes:
+      -  mongo_db:/data/db
+
+  backend:
+    build: ./backend
+    container_name: backend_pharma_container
+    ports:
+      -  '5000:5000'
+    environment:
+      DATABASE_URI: mongodb://database_pharma_container:27017/Mini_Medicine_Project
+      JWT_SECRET_KEY: anykeythatfits
+      FRONTEND_URI: http://localhost:3000/
+    depends_on:
+      - mongodb
+  frontend:
+    build: ./frontend
+    container_name: frontend_pharma_container
+    ports:
+      -  '3000:3000'
+    stdin_open: true
+    tty: true
+volumes:
+  mongo_db: {}
+

@@ -1,0 +1,18 @@
+	{
+            "name": "Napa",
+            "price": 20,
+            "category": "General",
+            "company": "Beximco",
+            "license": "CPP",
+            "country": "Bangladesh",
+            "imageUrl": "https://cdn1.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtZWRpY2luZVwvMTJcLzEyNDc0LU5hcGEtNTAwLTUwMG1nLWJvYWMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Im91dHNpZGUifSwib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoiYXJvZ2dhIiwia2V5IjoibWlzY1wvd20ucG5nIiwiYWxwaGEiOjkwfX19"
+        },
+        {
+            "name": "Entacyd",
+            "price": 30,
+            "category": "General",
+            "company": "Square",
+            "license": "CPP",
+            "country": "Bangladesh",
+            "imageUrl": "https://www.drdoepharmacy.com/wp-content/uploads/2020/12/Entacyd-plus.jpg"
+        }

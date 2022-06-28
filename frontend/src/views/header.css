@@ -1,0 +1,10 @@
+.bg__myRed{
+    background-color: crimson;
+}
+
+.links{
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: lightcyan;
+}
